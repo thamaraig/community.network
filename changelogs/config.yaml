@@ -13,7 +13,8 @@ sections:
 - - major_changes
   - Major Changes
 - - minor_changes
-  - Minor Changes
+  - Check running configuration. This can be set as environment variable.
+     Module will use environment variable value(default:False), unless it is overridden, by specifying it as module parameter
 - - breaking_changes
   - Breaking Changes / Porting Guide
 - - deprecated_features
